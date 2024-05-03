@@ -52,5 +52,8 @@ docker run -itd --name container_name texlive_img_name /bin/bash
 ## Verify
 Enter the container and run the following command:
 ```bash
+tex --version
 latex --version
+pdflatex --version
+xelatex --version
 ```
