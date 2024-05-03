@@ -8,7 +8,6 @@ TexLive unofficial Docker.
 There two ways to get the image.
 
 ### Docker Pull
-[https://hub.docker.com/r/hallyoung/texlive](https://hub.docker.com/r/hallyoung/texlive)
 ```bash
 docker pull hallyoung/texlive
 ```
