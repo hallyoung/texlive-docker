@@ -15,12 +15,13 @@ docker pull hallyoung/texlive
 ### Dockerfile
 Run the following commands:
 ```bash
-git clone --depth=1
-cd 
+git clone --depth=1 https://github.com/hallyoung/texlive-docker.git
+cd texlive-docker
 wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar -xzf install-tl-unx.tar.gz
 ```
 This will provide you with an installation package. Adjust the Dockerfile accordingly:
+
 ```Dockerfile
 FROM debian:stable-20240423-slim
 WORKDIR /latex
