@@ -1,5 +1,5 @@
 # texlive-docker
-TexLive Nnofficial Docker.
+TexLive unofficial Docker.
 
 ## Get Image
 ### docker pull
