@@ -1,14 +1,15 @@
-Here's a refined version of your content:
-
----
-
 # TexLive Docker
 TexLive unofficial Docker.
 
 ## Get the Image
+
+>The image only supports amd64.
+
+There two ways to get the image.
+
 ### Docker Pull
 ```bash
-docker pull
+docker pull hallyoung/texlive
 ```
 
 ### Dockerfile
